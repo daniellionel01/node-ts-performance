@@ -1,0 +1,26 @@
+{
+  "name": "node-ts-performance",
+  "version": "1.0.0",
+  "repository": "https://github.com/daniellionel01/node-ts-performance.git",
+  "author": "Daniel Kurz <danielkurz03@protonmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "fib:tsx": "tsx src/fib.ts",
+    "fib:ts-node": "ts-node src/fib.ts",
+    "fib:js": "tsc && node dist/fib.js",
+    "http:tsx": "tsx src/http.ts",
+    "http:ts-node": "ts-node src/http.ts",
+    "http:js": "tsc && node dist/http.js"
+  },
+  "dependencies": {
+    "@thi.ng/bench": "^3.1.20",
+    "fastify": "^4.10.2",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  }
+}
