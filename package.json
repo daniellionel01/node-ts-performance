@@ -11,10 +11,12 @@
     "fib:js": "tsc && node dist/fib.js",
     "http:tsx": "tsx src/http.ts",
     "http:ts-node": "ts-node src/http.ts",
-    "http:js": "tsc && node dist/http.js"
+    "http:js": "tsc && node dist/http.js",
+    "http:bench": "autocannon localhost:8080"
   },
   "dependencies": {
     "@thi.ng/bench": "^3.1.20",
+    "autocannon": "^7.10.0",
     "fastify": "^4.10.2",
     "ts-node": "^10.9.1",
     "tsx": "^3.12.1",
